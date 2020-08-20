@@ -1,0 +1,22 @@
+Hey Everyone,
+
+These are some digital audio programs that I wrote in C a few months ago.
+
+The programs operate on 16-bit wave (.wav) and CDaudio files (.cda or .cdaudio).
+I personally saw no reason to support 8-bit audio, as my experience with it
+is that it sounds pretty lousy. I also had no 24-bit files with which to work,
+so 24-bit audio is not supported either. Sorry about that.
+
+The main idea behind creating these files was to take the audio work very
+seriously. I use 16-bit buffers (short integers, to be specific) only if
+no large number of samples will be touched more than once. If that is the
+case, I use 32-bit floating-point buffers instead. That way, intermediate 
+results can be stored in a floating-point format. This results in the 
+minimum deterioration to the signal quality that I believe possible.
+
+The programs are fairly well tested, but bugs are certainly possible. Send
+bug reports or other feedback to lars@piumasoft.com, please.
+
+Thanks!
+
+Lars Brandewie, 8/17/2020

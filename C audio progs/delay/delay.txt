@@ -1,0 +1,11 @@
+Delay is a fairly simple program that implements a digital 
+delay effect. You can specify the source file, the delay in
+milliseconds, the level at which to mix in the delayed audio,
+and a normalization level if desired. All level settings are 
+(of course) in decibels. Delay is measured in milliseconds.
+
+If the operation results in clipping and no normalization
+level is specified, clipping will be detected and reported.
+
+usage: delay wavefile delay level [normlevel]
+

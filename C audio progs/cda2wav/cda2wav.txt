@@ -1,0 +1,4 @@
+CDA2wav is a simple converter that converts a .cdaudio file 
+to the appropriate .wav format (16-bit, 44100-Hz stereo).
+
+usage: cda2wav cdaudiofile

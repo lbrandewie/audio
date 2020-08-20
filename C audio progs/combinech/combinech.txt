@@ -1,0 +1,8 @@
+Combinech is a program that can combine two mono .wav files into one stereo file.
+If one of the files is shorter (in terms of samples) than the other, the shorter
+one will be padded as necessary. If there is a mismatch in settings between files,
+the file mentioned first determines the characteristics of the output file. The
+first wavefile mentioned becomes the left channel, while the second becomes
+the right.
+
+usage: combinech wavefile1 wavefile2
