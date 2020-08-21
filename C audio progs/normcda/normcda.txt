@@ -1,0 +1,5 @@
+Normcda is a simple program that "normalizes" a cdaudio file to
+any desired level. You specify the cdaudio file and the level. Level
+defaults to zero decibels if not specified.
+
+usage: normcda cdafile [level]

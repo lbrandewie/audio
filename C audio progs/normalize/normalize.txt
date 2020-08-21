@@ -1,0 +1,5 @@
+Normalize is a simple program that "normalizes" a wave file to
+any desired level. You specify the wave file and the level. Level
+defaults to zero decibels if not specified.
+
+usage: normalize wavefile [level]

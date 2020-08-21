@@ -1,0 +1,12 @@
+Msa is a program that does mid-sides analysis on stereo wave files.
+
+Stereo wave files can be looked at in two different ways. You can 
+consider them to be separate channels (the usual view), or you can
+view them as a "mono" part (called the "mid" information) and the 
+"stereo" part (called the "sides" information). Msa simply reports 
+on the level in decibels of the mid and sides information.
+
+The mid part is defined as the average of the channels. The sides
+(in this software) is calculated as the right channel minus the mid.
+
+usage: msa wavefile
