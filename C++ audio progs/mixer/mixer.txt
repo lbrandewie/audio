@@ -1,0 +1,17 @@
+Mixer is an app that allows you to mix two wave files together.
+
+You specify two wave files to mix, along with the offset and level
+of the second file, and (optionally) normalization level and pan.
+
+Level and normalization level are specified in decibels. Pan can
+range from -1 (full left) to 1 (full right). Pan is only significant
+if the 2nd file mentioned is mono and the first is stereo.
+Offset is measured in seconds.
+
+If the files differ in format, the first file mentioned controls
+the characteristics of the output file. Both must be 16-bit files.
+
+If the mix results in clipping and no normalization level is 
+specified, clipping will be detected and reported.
+
+usage: mixer wavefile1 wavefile2 offset level [normlevel] [pan]

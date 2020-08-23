@@ -1,0 +1,8 @@
+Wav2cda is a simple program that allows you to convert
+a wave file of the proper format to a cdaudio file.
+
+The wave file must be 16-bit, 44,100 Hz Stereo.
+
+usage: wav2cda wavefile
+
+

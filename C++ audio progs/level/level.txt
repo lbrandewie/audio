@@ -1,0 +1,5 @@
+Level is a very simple program that reports on the level 
+of an audio file. Zero decibels represents maximum level
+(a normalized file).
+
+usage: level wavefile

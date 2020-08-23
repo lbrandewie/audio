@@ -1,0 +1,34 @@
+Hey Everyone,
+
+This is my first C++ project, and I think it came out pretty well.
+I've been doing C since time began, and doing OOP in perl for many
+years, so it wasn't that big of an adjustment.
+
+I wrote three classes to simplify digital audio work. The Buffer class
+is where most of the code wound up. It represents a buffer in which 
+samples are stored. Wavefile and CDaudio classes are derived from
+Buffer, which simplify working with those file types.
+
+I managed to eliminate five classes (one base and four derived classes)
+by treating buffers as being full of primitive types (shorts and floats)
+rather than "Sample" - class objects. I got the benefit I was looking
+for there by using eight functions in Buffer.cpp (they start with get or
+set, left or right channel, 16- or 32-bit) which allow the samples to be
+addressed by sample number and channel, rather than absolute position in
+the buffer.
+
+The other thing you need to compile these examples is my library file
+GlobalProcs.cpp and its header. These are found in the Audio Class & 
+Library files folder in the distribution.
+
+If you download both the C and C++ versions of the applications, you
+will likely notice that the C++ versions are noticeably larger. I think
+it's size well spent, since the code is so much easier to maintain 
+and modify. There is no noticeable speed difference between the 
+different versions.
+
+Please send bug reports or other feedback to lars@piumasoft.com.
+
+Thanks,
+
+Lars Brandewie 8/17/2020

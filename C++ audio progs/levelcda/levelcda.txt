@@ -1,0 +1,5 @@
+Levelcda is a simple program that reports the level
+of a CDaudio file. Zero decibels represents a fully
+normalized file.
+
+usage: levelcda cdafile

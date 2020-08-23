@@ -1,0 +1,15 @@
+StereoFX is a program that allows you to change the stereo
+image of a file. The file must, of course, be stereo.
+
+You specify the input file and the decibel setting, and,
+optionally, a normalization level. The program then loads
+the file, converts to mid-sides, amplifies the sides and 
+then reconverts to stereo. This has the effect of enhancing
+the stereo image of the file.
+
+If no normalization level is specified and clipping occurs,
+it will be detected and reported.
+
+usage: stereofx wavefile decibels [normlevel]
+
+
