@@ -1,0 +1,4 @@
+Splitchan is a simple program that can split a stereo wave
+file into two mono files. You simply specify the filename.
+
+usage: splitchan wavefile
