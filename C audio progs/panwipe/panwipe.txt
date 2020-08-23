@@ -1,0 +1,12 @@
+Panwipe is a program that does "stupid pan tricks" (if you will) on mono
+wave files, resulting in stereo wave files. You specify the wavefile,
+the delay before the effect starts, cycle time (the length of a cycle
+in seconds), the pattern, and optionally the number of cycles.
+
+Pattern can be one of four possibilities. The LR setting starts the
+effect on the left channel, then moves it to the right (and possibly
+back again). The RL setting does the opposite. The CR setting starts
+at the center, then goes right (and optionally back again). The CL
+setting also starts in the center, but moves left initially.
+
+usage: panwipe wavefile delay cycletime pattern [cycles]

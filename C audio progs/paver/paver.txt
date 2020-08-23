@@ -1,0 +1,13 @@
+Paver is a simple program that creates blank wave files.
+You specify the name of the wave file, the duration in 
+seconds, the sample rate, and (optionally) the number
+of channels.
+
+You use the -t option to set time, the -s option to set
+sample rate, and the -c option to set the number of channels.
+
+Number of channels defaults to two if not specified.
+
+usage: paver wavfile [options]
+
+options: -t (sets time), -s (sets sample rate) and -c (sets channels)
